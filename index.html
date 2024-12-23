@@ -5,142 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zevik's Tools</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-100 text-gray-800 leading-relaxed">
-	
-    <header class="bg-white border-b border-gray-200 py-3">
-        <div class="container mx-auto px-4 flex items-center justify-between">
-            <div class="logo text-2xl font-bold">Zevik's Tools</div>
-            <nav class="flex space-x-6">
-                <a href="#" class="hover:text-gray-700">בית</a>
-                <a href="#" class="hover:text-gray-700">תוכנות</a>
-                <a href="#" class="hover:text-gray-700">טיפים</a>
-                <a href="#" class="hover:text-gray-700">אודות</a>
-                <a href="#" class="hover:text-gray-700">צור קשר</a>
-                <a href="#" class="hover:text-gray-700">HE</a>
-
-            </nav>
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="logo text-2xl font-bold">Zevik's Tools</div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-gray-700">בית</a>
+                    <a href="#" class="hover:text-gray-700">תוכנות</a>
+                    <a href="#" class="hover:text-gray-700">טיפים</a>
+                    <a href="#" class="hover:text-gray-700">אודות</a>
+                    <a href="#" class="hover:text-gray-700">צור קשר</a>
+                    <a href="#" class="hover:text-gray-700">HE</a>
+                </nav>
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
         </div>
     </header>
 
-    <div class="container mx-auto px-4">
-        <section class="hero-section text-center py-12">
-            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">הכלים והתוכנות המתקדמים ביותר לבעלי עסקים, למשרדי דיגיטל ולמנהלי קבוצות</h1>
-             <p class="text-lg text-gray-700 mb-2">לאיתור ולביצוע פעולות אוטומטיות בפייסבוק </p>
-			<p class="text-lg text-gray-700 mb-2">איך תכתבו 200 תגובות לתגובות לפוסט, בלי לבזבז שעות ובלי לחטוף ברקסים מפייסבוק?</p>
-			<p class="text-lg text-gray-700 mb-2">איך תפרסמו פוסטים ב-80 קבוצות שונות, בלי לבזבז כל כך הרבה זמן וגם להסתכן בהשעיה?</p>
-			<p class="text-lg text-gray-700 mb-2">איך תקבלו התראה על כל פוסט רלוונטי שעולה בקבוצות שתבחרו?</p>
-			<p class="text-lg text-gray-700">ועוד...</p>
-        </section>
-		
-		<section class="features-section flex flex-wrap justify-around">
-            <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">שמירת תשובות המצטרפים לקבוצה</h3>
-				<p class="text-gray-600">התוסף הפופולרי שאוסף ושומר את התשובות לשאלות הכניסה לקבוצה שלכם. כלי חובה לכל מנהל קבוצה! </p>
-                <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-            <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">מכונת הפוסטים</h3>
-                <p class="text-gray-600">פרסום פוסטים אוטומטי בכל הקבוצות שתרצו!</p>
-                 <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-            <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                 <h3 class="text-gray-900 font-semibold text-xl mb-4">מכונת התגובות</h3>
-                <p class="text-gray-600">כתבתם פוסט וקיבלתם מאות תגובות? התוסף יגיב לכל התגובות ויתייג את המגיב. התוסף יחסוך מכם שעות רבות של עבודה.</p>
-                 <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			 <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">סריקת קבוצות לחיפוש לידים</h3>
-                 <p class="text-gray-600">אתם מבזבזים שעות יקרות מדי יום בחיפוש פוסטים רלוונטיים בקבוצות פייסבוק? הגיע הזמן להפסיק עם זה!</p>
-                  <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">יצוא גיבוי לקבוצות</h3>
-                 <p class="text-gray-600">רוצים להעביר את כל הפוסטים מכל קבוצת פייסבוק שהיא, לגוגלשיטס? בשביל לגבות, לנתח, או לכל סיבה אחרת? </p>
-                 <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
+    <!-- Main Content -->
+    <main class="mt-16 pt-8">
+        <!-- Hero Section -->
+        <section class="relative bg-gray-800 text-white py-20">
+            <div class="absolute inset-0 bg-cover bg-center opacity-50" style="background-image: url('/api/placeholder/1920/600');"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-6">הכלים והתוכנות המתקדמים ביותר בשוק</h1>
+                    <p class="text-xl mb-4">לגיוס עובדים, לשירותי דיגיטל ולמנהלי קבוצות</p>
+                    <p class="text-lg mb-2">לאיתור ולביצוע פעולות אוטומטיות בפייסבוק</p>
+                </div>
             </div>
         </section>
-		<section>
-			<div class="features-section flex flex-wrap justify-around">
-			
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-               <h3 class="text-gray-900 font-semibold text-xl mb-4"> איך חוסמים מישהו לפני שהוא מספיק להצטרף לקבוצה?</h3>
-                <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-            <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                 <h3 class="text-gray-900 font-semibold text-xl mb-4"> חסימת כותב תגובה </h3>
-                <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-            <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                 <h3 class="text-gray-900 font-semibold text-xl mb-4">אימות כפול חובה עכשיו! </h3>
-                  <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">הודעות פרטיות שלא נקראו </h3>
-                <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-            <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">התראות במייל על תיוגים דיווחים ועוד</h3>
-               <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">הורדת סרטונים מפייסבוק</h3>
-                 <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			 <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">הרחבת כל התגובות המקופלות</h3>
-                 <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
 
-			 <div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-               <h3 class="text-gray-900 font-semibold text-xl mb-4">הפעלה נוחה של כמה חשבונות פייסבוק במחשב</h3>
-                 <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">עיצובי טקסט מיוחדים בפייסבוק! בעיקר לאנגלית </h3>
-                <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                <h3 class="text-gray-900 font-semibold text-xl mb-4">מוזיקת רקע לסרטונים שלכם ללא זכויות יוצרים</h3>
-                <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-			<div class="feature-item bg-white border border-gray-200 p-6 text-center m-2 w-full md:w-1/3 shadow-md hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-                 <h3 class="text-gray-900 font-semibold text-xl mb-4">איך לשחרר חסימה של חבר שלא מוצאים ברשימת החסומים?​</h3>
-                  <a href="#" class="button bg-indigo-700 hover:bg-indigo-900 mt-4 rounded-md px-4 py-2 text-white text-center inline-block">להמשך</a>
-            </div>
-		</div>
-		</section>
-			
-		<section class="testimonials-section">
-			<h1 class="text-2xl font-bold mb-4 text-gray-900">תודה שהמלצתם עלי</h1>
-			<div class="testimonials flex flex-wrap justify-around">
-			<p  class="bg-white border border-gray-200 p-4 text-gray-900 w-full md:w-1/3 shadow-md m-2 hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-לדעתי הבן אדם שהכי מבין בתחום בארץ אבל עדיין לא כולם יודעים את זה  🙂
-ANATOLY TOLIK EIDELMAN</p>
+        <!-- Features Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-center mb-12">התוכנות והטיפים שלנו</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- DMAC Feature -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:transform hover:-translate-y-2 transition-duration-300">
+                        <div class="text-indigo-600 text-4xl mb-4">
+                            <i class="far fa-file-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">DMAC</h3>
+                        <p class="text-gray-600 mb-6">המערכת האוטומטית המתקדמת להקמת קמפיינים</p>
+                        <a href="#" class="inline-block bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors">למידע נוסף</a>
+                    </div>
 
-				<p class="bg-white border border-gray-200 p-4 text-gray-900 w-full md:w-1/3 shadow-md m-2 hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-				  
-אם אתם מנהלי קבוצה, ורוצים להפוך תהליכים לאוטומטיים, זאביק אבינר הוא האיש שלכם. פנינו אליו כאשר עשינו פעילות אצלינו בקהילת פודוס - פודי'ז שומרי כשרות, במסגרתה היינו צריכות לבצע מספור של כמות משתתפים גדולה במיוחד. מאד מהר הבנו שלא נוכל לבצע זאת ידנית וקיבלנו מענה איכותי בעזרת אלגוריתם שזאביק פיתח בעבורנו. זאביק עובד עם תוכנתנים מעולים מרחבי העולם, מבין מאד בקרביים המדממות של פייסבוק, ויודע כיצד ניתן להתייעל בעבודה מולו.
-תהילה סיטון וזוהרת ניר-כהן, מנהלות קהילת "פודוס - פודי'ז שומרי כשרות"
-				</p>
+                    <!-- Multi Poster Feature -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:transform hover:-translate-y-2 transition-duration-300">
+                        <div class="text-indigo-600 text-4xl mb-4">
+                            <i class="fas fa-copy"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Multi Poster</h3>
+                        <p class="text-gray-600 mb-6">פרסום מרובה קבוצות</p>
+                        <a href="#" class="inline-block bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors">למידע נוסף</a>
+                    </div>
 
-                <p  class="bg-white border border-gray-200 p-4 text-gray-900 w-full md:w-1/3 shadow-md m-2 hover:transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-תרשו לי לפרגן לחבר קבוצה Zevik Aviner זאביק היקר שבזכותו אני כבר לא נחסמת במתן קישורים בקבוצה,בזכות התוסף שהוא התקין לי ,והכל ממרחק,שירות אדיב ומקסים למרות שאני משגעת אותו <img draggable="false" role="img" class="emoji" alt="🤣" src="https://s.w.org/images/core/emoji/15.0.3/svg/1f923.svg"><img draggable="false" role="img" class="emoji" alt="🤣" src="https://s.w.org/images/core/emoji/15.0.3/svg/1f923.svg"><img draggable="false" role="img" class="emoji" alt="🤣" src="https://s.w.org/images/core/emoji/15.0.3/svg/1f923.svg">ממליצה בחום מכל הלב <img draggable="false" role="img" class="emoji" alt="❤" src="https://s.w.org/images/core/emoji/15.0.3/svg/2764.svg">
-אילנית בניזרי
-				</p>
-			</div>
-		</section>
-	</div>
-	
-    <footer class="text-center py-4 border-t border-gray-300">
-		 <div class="social-buttons">
-		 <a href="#" class="social-button"><i class="fab fa-facebook-f"></i></a>
-		 </div>
-        © 2021 Zevik's tools
+                    <!-- Reply Commenter Feature -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:transform hover:-translate-y-2 transition-duration-300">
+                        <div class="text-indigo-600 text-4xl mb-4">
+                            <i class="far fa-comments"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Reply Commenter</h3>
+                        <p class="text-gray-600 mb-6">מענה אוטומטי לתגובות</p>
+                        <a href="#" class="inline-block bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors">למידע נוסף</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Tips Section -->
+        <section class="bg-gray-50 py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-center mb-12">טיפים לפייסבוק</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Tip Cards -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="font-semibold mb-3">איך להוריד סרטונים מפייסבוק</h3>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800">קרא עוד</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="font-semibold mb-3">חסימת משתמשים בקבוצה</h3>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800">קרא עוד</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="font-semibold mb-3">ניהול מרובה חשבונות</h3>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800">קרא עוד</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-center mb-12">תודה שהמלצתם עלי</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Testimonial Cards -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <p class="text-gray-600 mb-4">לדעתי הבן אדם שהכי מבין בתחום בארץ אבל עדיין לא כולם יודעים את זה 🙂</p>
+                        <p class="font-semibold">- ANATOLY TOLIK EIDELMAN</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <p class="text-gray-600 mb-4">תרשו לי לפרגן לחבר קבוצה Zevik Aviner זאביק היקר שבזכותו אני כבר לא נחסמת במתן קישורים בקבוצה</p>
+                        <p class="font-semibold">- אילנית בניזרי</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="social-buttons mb-4">
+                    <a href="#" class="text-white mx-2 text-2xl"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2 text-2xl"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>© 2024 Zevik's Tools</p>
+            </div>
+        </div>
     </footer>
-	 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
